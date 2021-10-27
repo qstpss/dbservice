@@ -1,6 +1,6 @@
 package com.example.dbservice.rest.controllers;
 
-import com.example.dbservice.rest.model.ExternalValueDto;
+import external.dto.ExternalValueDto;
 
 public interface DatabaseController {
     void saveExternalValue(ExternalValueDto value);

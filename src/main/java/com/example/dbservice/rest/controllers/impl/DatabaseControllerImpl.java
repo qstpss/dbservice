@@ -2,8 +2,8 @@ package com.example.dbservice.rest.controllers.impl;
 
 import com.example.dbservice.mapper.ExternalValueMapper;
 import com.example.dbservice.rest.controllers.DatabaseController;
-import com.example.dbservice.rest.model.ExternalValueDto;
 import com.example.dbservice.services.DatabaseService;
+import external.dto.ExternalValueDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
